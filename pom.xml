@@ -16,8 +16,15 @@
         <description>Demo project for Spring Boot</description>
         <properties>
                 <java.version>11</java.version>
-                <jakarta.persistence.version>3.0.0</jakarta.persistence.version>
-        </properties>
+		<jakarta.persistence.version>3.0.0</jakarta.persistence.version>
+		<sonar.host.url>http://13.58.216.17:9000/</sonar.host.url>
+		<sonar.login>31ef9806d62cb5a3a7fe6d05c3a2367d931595e0</sonar.login>
+		<sonar.java.binaries>target/classes</sonar.java.binaries>
+	</properties>
+	<!--<properties>
+		<sonar.host.url>http://13.58.216.17:9000/</sonar.host.url>
+		<sonar.login>31ef9806d62cb5a3a7fe6d05c3a2367d931595e0</sonar.login>
+	</properties> -->
         <dependencies>
                 <dependency>
                         <groupId>org.springframework.boot</groupId>
